@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+}
+
+.product {
+    display: flex;
+    margin: 20px 0;
+    height: 300px; /* Set a fixed height for the product container */
+}
+
+.product img {
+    object-fit: cover; /* Ensure the image covers the entire container */
+    width: 300px; /* Fixed width for the image */
+    border-radius: 5px;
+}
+
+.product-details {
+    padding: 0 20px;
+    flex-grow: 1; /* Allow the product details to take remaining space */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.price {
+    color: #ff5733; /* Orange price color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50; /* Green buy button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
